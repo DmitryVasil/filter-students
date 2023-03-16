@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1170px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.th {
+  cursor: pointer;
+}
+
+.th:hover {
+  color: rgb(211, 211, 211);
+}
+
+.form-label-faculty {
+  visibility: hidden;
+}
+
+.filtr-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filtr-block__input {
+  width: 20%;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.text {
+  width: 100px;
+  height: 100px;
+  color: red;
+}
